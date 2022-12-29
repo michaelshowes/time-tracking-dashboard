@@ -2,6 +2,7 @@
   max-width: 1200px;
   padding: 80px 24px;
   margin: 0 auto;
+  transform: translateY(calc(50vh - 50%));
 
   @media screen and (min-width: 1100px) {
     display: grid;
