@@ -8,7 +8,7 @@ export default function App() {
   const [timeline, setTimeline] = useState('daily');
 
   return (
-    <div className={styles.app}>
+    <main className={styles.app}>
       <UserCard
         onClick={(e) => {
           setTimeline((e.target as Element).id);
@@ -45,6 +45,6 @@ export default function App() {
           />
         ))}
       </div>
-    </div>
+    </main>
   );
 }

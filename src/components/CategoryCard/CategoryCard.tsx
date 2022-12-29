@@ -25,7 +25,7 @@ export default function CategoryCard({
       style={{ backgroundColor: `${color}` }}
     >
       <div className={styles.icon}>
-        <img src={`/images/${icon}`} />
+        <img src={`/images/${icon}`} alt={title} />
       </div>
       <div className={styles.content}>
         <div className={styles.upper}>
