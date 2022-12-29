@@ -1,0 +1,65 @@
+.categoryCard {
+  border-radius: 15px;
+  margin-bottom: 1.5rem;
+
+  .icon {
+    position: relative;
+    height: 38px;
+    overflow: hidden;
+    isolation: isolate;
+
+    img {
+      position: absolute;
+      top: -8px;
+      right: 18px;
+      z-index: -1;
+    }
+  }
+
+  .content {
+    background-color: #1c204b;
+    padding: 28px 24px;
+    border-radius: 13px;
+
+    .upper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 6px;
+
+      .title {
+        font-weight: 500;
+      }
+
+      button {
+        &:hover {
+          svg {
+            fill: white;
+          }
+        }
+
+        svg {
+          fill: #bbc0ff;
+          align-self: center;
+          transition: 0.1s ease-in-out;
+        }
+      }
+    }
+
+    .lower {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .current {
+        font-size: 2rem;
+        font-weight: 300;
+      }
+
+      .previous {
+        color: #bbc0ff;
+        font-size: 0.9375rem;
+      }
+    }
+  }
+}

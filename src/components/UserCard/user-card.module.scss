@@ -1,0 +1,50 @@
+.userCard {
+  background-color: #1c204b;
+  border-radius: 15px;
+  margin-bottom: 1.5rem;
+
+  .upper {
+    display: flex;
+    align-items: center;
+    background-color: #5747ea;
+    border-radius: 15px;
+    padding: 32px;
+
+    .avatar {
+      width: 64px;
+      height: 64px;
+      border: 2px solid white;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+
+    .header {
+      .eyebrow {
+        font-size: 0.9375rem;
+        color: #bbc0ff;
+      }
+
+      .name {
+        font-weight: 300;
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .lower {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 32px;
+
+    .btn {
+      color: #7078c9;
+      transition: 0.1s ease-in-out;
+
+      &:hover,
+      &:active,
+      &:visited {
+        color: white;
+      }
+    }
+  }
+}
