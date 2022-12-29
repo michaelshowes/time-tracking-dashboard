@@ -11,7 +11,7 @@ export default function App() {
     <div className={styles.app}>
       <UserCard
         onClick={(e) => {
-          setTimeline(e.target.attributes.id.value);
+          setTimeline((e.target as Element).id);
         }}
       />
       <div className={styles.categoryCards}>
