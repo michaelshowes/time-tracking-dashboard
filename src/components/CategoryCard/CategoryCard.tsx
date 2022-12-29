@@ -36,7 +36,9 @@ export default function CategoryCard({
         </div>
         <div className={styles.lower}>
           <div className={styles.current}>{current}hrs</div>
-          <div className={styles.previous}>Last Week - {previous}hrs</div>
+          <div className={styles.previous}>
+            {timeframe} - {previous}hrs
+          </div>
         </div>
       </div>
     </article>
