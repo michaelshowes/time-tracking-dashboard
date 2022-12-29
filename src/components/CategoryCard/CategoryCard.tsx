@@ -30,7 +30,7 @@ export default function CategoryCard({
       <div className={styles.content}>
         <div className={styles.upper}>
           <div className={styles.title}>{title}</div>
-          <button>
+          <button aria-label='Options'>
             <Ellipsis />
           </button>
         </div>
