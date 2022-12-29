@@ -1,5 +1,5 @@
 import styles from './category-card.module.scss';
-import { ReactComponent as Ellipsis } from '../../assets/images/icon-ellipsis.svg';
+import { ReactComponent as Ellipsis } from '/public/images/icon-ellipsis.svg';
 
 type CategoryCardProps = {
   title: string;
@@ -25,7 +25,7 @@ export default function CategoryCard({
       style={{ backgroundColor: `${color}` }}
     >
       <div className={styles.icon}>
-        <img src={`./src/assets/images/${icon}`} />
+        <img src={`./public/images/${icon}`} />
       </div>
       <div className={styles.content}>
         <div className={styles.upper}>

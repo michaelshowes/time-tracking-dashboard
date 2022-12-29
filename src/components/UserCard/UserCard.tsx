@@ -9,11 +9,7 @@ export default function UserCard({ onClick }: UserCardProps) {
   return (
     <article className={styles.userCard}>
       <div className={styles.upper}>
-        <img
-          src='./src/assets/images/image-jeremy.png'
-          className={styles.avatar}
-          alt=''
-        />
+        <img src='images/image-jeremy.png' className={styles.avatar} alt='' />
         <div className={styles.header}>
           <div className={styles.eyebrow}>Report for</div>
           <h1 className={styles.name}>{data.name}</h1>
