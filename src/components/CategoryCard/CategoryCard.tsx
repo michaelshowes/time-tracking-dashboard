@@ -19,7 +19,7 @@ export default function CategoryCard({
   color,
 }: CategoryCardProps) {
   return (
-    <article
+    <div
       key={title}
       className={styles.categoryCard}
       style={{ backgroundColor: `${color}` }}
@@ -41,6 +41,6 @@ export default function CategoryCard({
           </div>
         </div>
       </div>
-    </article>
+    </div>
   );
 }
