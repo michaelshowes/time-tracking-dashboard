@@ -7,7 +7,7 @@ type UserCardProps = {
 
 export default function UserCard({ onClick }: UserCardProps) {
   return (
-    <article className={styles.userCard}>
+    <div className={styles.userCard}>
       <div className={styles.upper}>
         <img src='images/image-jeremy.png' className={styles.avatar} alt='' />
         <div className={styles.header}>
@@ -26,6 +26,6 @@ export default function UserCard({ onClick }: UserCardProps) {
           Monthly
         </button>
       </div>
-    </article>
+    </div>
   );
 }
